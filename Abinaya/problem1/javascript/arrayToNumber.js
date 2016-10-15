@@ -17,4 +17,5 @@ function stringToArray() {
         }
     }
     console.log(splitString);
+    document.getElementById("answer").innerHTML = splitString;
 }
