@@ -1,4 +1,4 @@
-var str = "1,2,3...6,7,8...11,12...15", i, j, len;
+var str = "1,2,3...6,7,8...11,12...15", i, j, len, num_array, res_array;
 num_array = str.split(",");
 res_array = [];
 len = num_array.length;
